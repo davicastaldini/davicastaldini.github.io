@@ -163,6 +163,29 @@ header {
     text-align: center;
 }
 
+/* Adicionando ícone de menu */
+.menu-icon {
+    display: none; /* Ocultando o ícone em telas maiores */
+}
+
+/* Estilo do menu */
+.menu {
+    display: none;
+    /* Adicione estilos de menu móvel aqui */
+}
+
+/* Estilos para dispositivos móveis */
+@media screen and (max-width: 768px) {
+    .navbar {
+        display: none; /* Ocultar a barra de navegação em telas menores */
+    }
+    
+    .menu-icon {
+        display: block; /* Mostrar o ícone do menu em telas menores */
+        padding-right: 15px; /* Adapte o espaçamento conforme necessário */
+        cursor: pointer;
+    }
+}
 
 
 
