@@ -96,6 +96,11 @@ header {
     height: auto;
     border-radius: 10px;
     box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s;
+}
+
+.banner img:hover {
+    transform: scale(1.05);
 }
 
 .sejaparceiro {
@@ -132,7 +137,11 @@ header {
     height: auto;
     box-shadow: -5px 10px 20px rgba(0, 0, 0, 0.5);
     margin-right: 150px;
-    
+    transition: transform 0.5s;
+}
+
+.nossoproposito img:hover {
+    transform: scale(1.05);
 }
 
 .proposito {
